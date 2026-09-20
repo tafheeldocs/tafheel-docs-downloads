@@ -1,0 +1,65 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "tafheel-creation",
+          "appId": "1:198986442579:android:e1c6d068c4f82d7e8ea3a6",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tafheel-creation",
+          "configurations": {
+            "android": "1:198986442579:android:e1c6d068c4f82d7e8ea3a6",
+            "ios": "1:198986442579:ios:c5dc04db28c36c758ea3a6",
+            "macos": "1:198986442579:ios:c5dc04db28c36c758ea3a6",
+            "web": "1:198986442579:web:8eb1ff7a18e4b9288ea3a6",
+            "windows": "1:198986442579:web:6a016128fa260ec28ea3a6"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "source": "functions"
+    },
+    {
+      "source": "tafheel-company-auth",
+      "codebase": "tafheel-company-auth",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

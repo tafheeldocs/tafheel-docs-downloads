@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "198986442579",
+    "project_id": "tafheel-creation",
+    "storage_bucket": "tafheel-creation.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198986442579:android:e1c6d068c4f82d7e8ea3a6",
+        "android_client_info": {
+          "package_name": "com.example.tafheel_docs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198986442579-pm9sngvbl88881a6fjj3pfqc8tlaaea2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADXptW1_nR_-8gSTZsMudGxb3DEdhTvPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198986442579-pm9sngvbl88881a6fjj3pfqc8tlaaea2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "198986442579-dmblh0psecqrbosr02034la9uqplce9j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tafheelDocs"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198986442579:android:8fc3bf7dc5cb56028ea3a6",
+        "android_client_info": {
+          "package_name": "tafheel.docs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198986442579-pm9sngvbl88881a6fjj3pfqc8tlaaea2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADXptW1_nR_-8gSTZsMudGxb3DEdhTvPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198986442579-pm9sngvbl88881a6fjj3pfqc8tlaaea2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "198986442579-dmblh0psecqrbosr02034la9uqplce9j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tafheelDocs"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

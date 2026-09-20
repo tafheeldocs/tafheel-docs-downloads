@@ -1,0 +1,37 @@
+name: tafheel_docs
+description: "A new Flutter project for Tafheel Creation."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Dependencies
+  firebase_core: ^3.0.0 # നിങ്ങളുടെ പ്രൊജക്റ്റിലെ നിലവിലുള്ള വേർഷൻ അനുസരിച്ച് മാറ്റാം
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0 #
+
+  # The following adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.6
+  firebase_messaging: ^15.2.10
+  flutter_local_notifications: ^22.3.1
+  timezone: ^0.11.1
+  intl: ^0.20.3
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ലോഗോ അസറ്റ് ഇവിടെ ചേർത്തിരിക്കുന്നു
+  assets:
+    - images/logo.png
